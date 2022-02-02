@@ -434,8 +434,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .w-4\/5 {
   width: 80%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -462,13 +470,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
 }
 
-.border-green-800 {
+.border-green-700 {
   --tw-border-opacity: 1;
-  border-color: rgb(22 101 52 / var(--tw-border-opacity));
+  border-color: rgb(21 128 61 / var(--tw-border-opacity));
 }
 
 .bg-green-500 {
@@ -486,8 +499,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
+.object-top {
+  object-position: top;
+}
+
 .p-2 {
   padding: 0.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -523,8 +549,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
+}
+
+.hover\:bg-green-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .hover\:text-green-800:hover {

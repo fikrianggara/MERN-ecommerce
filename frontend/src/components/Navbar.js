@@ -47,11 +47,11 @@ const Navbar = () => {
         </Language>
         <SearchContainer>
           <Input></Input>
-          <Search className='hover:cursor-pointer hover:text-green-800 bg-green-200 hover:bg-green-400 transition ease-in-out duration-150 rounded-r'/>
+          <Search className='hover:cursor-pointer hover:text-green-600 bg-green-200 rounded-r'/>
         </SearchContainer>
       </Left>
       <Center><Logo>
-        MY-COMMERCE</Logo></Center>
+        CLOTHES-COMMERCE</Logo></Center>
       <Right>
         <MenuItem>Register</MenuItem>
         <MenuItem>Sign In</MenuItem>
