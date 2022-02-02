@@ -1,9 +1,13 @@
 import Navbar from "../components/Navbar";
-
+import Announcements from "../components/Announcements";
+import HeroCarousel from "../components/HeroCarousel";
 const Home = () => {
   return (
   <div>
-    <Navbar/>
+    <Announcements></Announcements>
+    <Navbar></Navbar>
+    
+    <HeroCarousel></HeroCarousel>
   </div>
   );
 };
