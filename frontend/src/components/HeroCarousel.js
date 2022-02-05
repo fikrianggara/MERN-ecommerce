@@ -6,14 +6,14 @@ import {ArrowLeft, ArrowRight} from '@mui/icons-material';
 import {sliderItems} from '../data';
 
 const Container = styled.div.attrs({
-  className:'my-8 w-4/5 h-[400px] mx-auto rounded-xl relative'
+  className:'my-8 w-4/5 h-[400px] mx-auto rounded-xl relative shadow-xl'
 })``;
 
 const ArrowContainerLeft = styled.div.attrs({
-  className: `opacity-50 hover:opacity-100 duration-150 ease-in hover:cursor-pointer hover:text-blue-800 mx-2 z-10 absolute flex top-0 bottom-0 left-1 m-auto items-center justify-center text-xl text-grey-200 w-[40px] h-[40px] bg-white rounded-[50%] text-blue-500`
+  className: `opacity-100 md:opacity-50 hover:opacity-100 duration-150 ease-in hover:cursor-pointer hover:text-blue-800 mx-2 z-10 absolute flex top-0 bottom-0 left-1 m-auto items-center justify-center text-xl text-grey-200 w-[40px] h-[40px] bg-white rounded-[50%] text-blue-500`
 })``;
 const ArrowContainerRight = styled.div.attrs({
-  className:`opacity-50 hover:opacity-100 duration-150 ease-in hover:cursor-pointer hover:text-blue-800 mx-2 z-10 absolute flex top-0 bottom-0 right-1 m-auto items-center justify-center text-xl text-grey-200 w-[40px] h-[40px] bg-white rounded-[50%] text-blue-500`
+  className:`opacity-100 md:opacity-50 hover:opacity-100 duration-150 ease-in hover:cursor-pointer hover:text-blue-800 mx-2 z-10 absolute flex top-0 bottom-0 right-1 m-auto items-center justify-center text-xl text-grey-200 w-[40px] h-[40px] bg-white rounded-[50%] text-blue-500`
 })``;
 const Wrapper = styled.div.attrs({
   className:'snap-x w-full h-full flex overflow-x-hidden flex-col flex-wrap'
@@ -24,7 +24,7 @@ const Slide = styled.div.attrs({
 })`
 transform:translateX(${props=>props.slideIndex*-100}%)`;
 const TitleContainer = styled.div.attrs({
-  className:'absolute top-5 text-xl md:text-5xl left-10 md:left-24 md:top-10 font-medium tracking-widest opacity-80'
+  className:'absolute top-5 text-3xl md:text-5xl md:text-5xl left-10 md:left-24 md:top-10 font-medium tracking-widest opacity-80'
 })``;
 const ImgContainer = styled.div.attrs({
     className:'w-full h-full',
@@ -33,9 +33,6 @@ const ShopButton = styled.button.attrs({
   className:'absolute bottom-5 right-10 md:right-24 md:bottom-10 md:text-xl text-sm font-medium md:opacity-60 md:hover:opacity-100 opacity-100 hover:cursor-pointer duration-150 ease-in text-green-800 bg-slate-200 p-4 rounded-lg'
 })``;
 
-const Template = styled.div.attrs({
-  className:''
-})``;
 
 
 

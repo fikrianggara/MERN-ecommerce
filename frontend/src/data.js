@@ -1,11 +1,11 @@
 export const sliderItems = [
     {
         id:1,
-        src: './assets/girl-model4.jpg',
-        title: `12.12
-EVENT`,
-        alt: 'Shirt Image',
-        textColor:'text-yellow-900 '
+        src: './assets/girl-model2.jpg',
+        title: `BUY 1
+GET 1`,
+        alt: 'Sweater Image',
+        textColor:'text-orange-900'
     },
     {
         id:2,
@@ -16,11 +16,11 @@ EVENT`,
     },
     {
         id:3,
-        src: './assets/girl-model2.jpg',
-        title: `BUY 1
-GET 1`,
-        alt: 'Sweater Image',
-        textColor:'text-orange-900'
+        src: './assets/girl-model4.jpg',
+        title: `12.12
+EVENT`,
+        alt: 'Shirt Image',
+        textColor:'text-yellow-900 ',
     },
     {
         id:4,
@@ -38,4 +38,25 @@ OF VOUCHER`,
         alt: 'Jeans Image',
         textColor:'text-orange-600'
     },
+]
+
+export const categoriesItems = [
+    {
+        id:1,
+        title: 'Top',
+        desc: 'Lorem ipsum dolor sit amet.',
+        src:'./assets/shirt3.jpg',
+    },
+    {
+        id:2,
+        title: 'Bottom',
+        desc: 'Lorem ipsum dolor sit amet.',
+        src:'./assets/jeans.jpg',
+    },
+    {
+        id:3,
+        title: 'Set',
+        desc: 'Lorem ipsum dolor sit amet.',
+        src:'./assets/shirt.jpg',
+    }
 ]
