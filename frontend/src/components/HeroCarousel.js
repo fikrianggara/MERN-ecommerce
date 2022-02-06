@@ -68,7 +68,7 @@ const HeroCarousel = () => {
           <ImgContainer>
             <img className='object-cover rounded-xl w-full h-full' src={item.src} alt={item.alt} />
           </ImgContainer>
-          <ShopButton><h1>Shop Now</h1></ShopButton>
+          <ShopButton onClick={()=>window.location.href = "/product-list"}><h1>Shop Now</h1></ShopButton>
           </Slide>
         ))}
       </Wrapper>

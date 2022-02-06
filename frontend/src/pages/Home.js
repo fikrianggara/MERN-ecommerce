@@ -12,7 +12,7 @@ const Home = () => {
     <Navbar></Navbar>
     <HeroCarousel></HeroCarousel>
     <Categories></Categories>
-    <Products></Products>
+    <Products Page={'Home'}></Products>
     <Footer></Footer>
   </div>
   );

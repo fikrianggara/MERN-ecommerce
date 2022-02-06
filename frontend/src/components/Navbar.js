@@ -39,8 +39,10 @@ const MenuItem = styled.div.attrs({
 const Navbar = () => {
   return <Container>
     <Wrapper>
-      <Left><Logo>
-        CLOTHES-COMMERCE</Logo></Left>
+      <Left>
+        <a href="/">
+        <Logo>
+        CLOTHES-COMMERCE</Logo></a></Left>
       <Center>
         <Language>
           IND

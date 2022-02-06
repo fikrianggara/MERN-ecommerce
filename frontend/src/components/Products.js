@@ -1,20 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
-// import tw from "twin.macro";
-import {homePageProducts} from '../data';
+import {useState, useEffect} from 'react';
+import {homePageProducts,productPageProducts} from '../data';
 import Product from './Product';
 
 const Container = styled.div.attrs({
-  className:'md:w-4/5 m-auto px-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'
+  className:'md:w-4/5 m-auto px-3 mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'
 })``;
 
 const Template = styled.div.attrs({
   className:''
 })``;
-const Products = () => {
+const Products = ({Page}) => {
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        switch(Page){
+        case 'Home':
+            setData(homePageProducts);
+            break;
+        case 'ProductList':
+            setData(productPageProducts);
+            break;
+        default:
+            setData([]);
+    }
+}, [Page]);
   return (
       <Container>
-    {homePageProducts.map(product=>( 
+        {data.map(product=>( 
             <Product item={product} key={product.id+''+product.category}></Product>
       ))}
       </Container>
