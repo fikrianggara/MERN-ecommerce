@@ -19,7 +19,7 @@ const DescContainer = styled.div.attrs({
 const ImageContainer = styled.div.attrs({
   className:'w-full h-full object-top'
 })``;
-const CategoryTitle = styled.div.attrs({
+const CategoryTitle = styled.h1.attrs({
   className:'flex-1 font-medium tracking-widest text-4xl my-5 lg:text-5xl text-slate-100'
 })``;
 const CategoryButton =styled.button.attrs({

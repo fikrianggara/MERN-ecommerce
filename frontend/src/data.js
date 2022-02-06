@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
         id:1,
-        src: './assets/girl-model2.jpg',
+        src: './assets/hero/girl-model2.jpg',
         title: `BUY 1
 GET 1`,
         alt: 'Sweater Image',
@@ -9,14 +9,14 @@ GET 1`,
     },
     {
         id:2,
-        src: './assets/man-model3.jpg',
+        src: './assets/hero/man-model3.jpg',
         title: '99% CASHBACK',
         alt: 'Shoes Image',
         textColor:'text-gray-200'
     },
     {
         id:3,
-        src: './assets/girl-model4.jpg',
+        src: './assets/hero/girl-model4.jpg',
         title: `12.12
 EVENT`,
         alt: 'Shirt Image',
@@ -24,7 +24,7 @@ EVENT`,
     },
     {
         id:4,
-        src: './assets/girl-model3.jpg',
+        src: './assets/hero/girl-model3.jpg',
         title: `FREE
 SHIPPING`,
         alt: 'Hoodie Image',
@@ -32,7 +32,7 @@ SHIPPING`,
     },
     {
         id:5,
-        src: './assets/man-model2.jpg',
+        src: './assets/hero/man-model2.jpg',
         title: `BUNCH 
 OF VOUCHER`,
         alt: 'Jeans Image',
@@ -45,18 +45,25 @@ export const categoriesItems = [
         id:1,
         title: 'Top',
         desc: 'Lorem ipsum dolor sit amet.',
-        src:'./assets/shirt3.jpg',
+        src:'./assets/categories/shirt3.jpg',
     },
     {
         id:2,
         title: 'Bottom',
         desc: 'Lorem ipsum dolor sit amet.',
-        src:'./assets/jeans.jpg',
+        src:'./assets/categories/jeans.jpg',
     },
     {
         id:3,
         title: 'Set',
         desc: 'Lorem ipsum dolor sit amet.',
-        src:'./assets/shirt.jpg',
+        src:'./assets/categories/shirt.jpg',
+    }
+]
+
+export const products = [
+    {
+        id:1,
+        src:''
     }
 ]
