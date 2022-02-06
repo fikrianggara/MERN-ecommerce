@@ -9,9 +9,6 @@ const Container = styled.div.attrs({
 const Description = styled.div.attrs({
   className:'text-green-800 font-medium text-sm'
 })``;
-const Template = styled.div.attrs({
-  className:''
-})``;
 
 const Announcements = () => {
     return (
