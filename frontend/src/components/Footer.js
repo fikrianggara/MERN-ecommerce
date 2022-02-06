@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Instagram, Facebook, Twitter, Email} from '@mui/icons-material';
 const Container = styled.div.attrs({
-  className:'bg-white p-8 md:p-4 flex flex-col md:flex-row shadow-y-lg'
+  className:'bg-white p-8 md:p-4 flex flex-col mt-8 md:flex-row shadow-y-lg'
 })``;
 const Left = styled.div.attrs({
   className:'flex-1 text-start md:text-center'

@@ -43,27 +43,48 @@ OF VOUCHER`,
 export const categoriesItems = [
     {
         id:1,
-        title: 'Top',
+        title: 'Shirt',
         desc: 'Lorem ipsum dolor sit amet.',
         src:'./assets/categories/shirt3.jpg',
     },
     {
         id:2,
-        title: 'Bottom',
+        title: 'Sweater',
         desc: 'Lorem ipsum dolor sit amet.',
-        src:'./assets/categories/jeans.jpg',
+        src:'./assets/categories/sweater1.jpg',
     },
     {
         id:3,
-        title: 'Set',
+        title: 'Hoodie',
         desc: 'Lorem ipsum dolor sit amet.',
-        src:'./assets/categories/shirt.jpg',
+        src:'./assets/categories/hoodie.jpg',
     }
 ]
 
-export const products = [
-    {
-        id:1,
-        src:''
-    }
-]
+const homePageProducts = [];
+const productPageProducts = [];
+const categories = ['sweatshirt-female','hoodies','hoodies-female','longsleeve','shirt','sweatshirt']
+categories.forEach(category=>{
+    for(let i = 1; i<=5; i++){
+    homePageProducts.push(
+        {
+            id:i,
+            category,
+            src:`assets/products/${category}/${i}.jpg`
+        }
+    )
+}
+})
+categories.forEach(category=>{
+    for(let i = 1; i<=20; i++){
+    productPageProducts.push(
+        {
+            id:i,
+            category,
+            src:`assets/products/${category}/${i}.jpg`
+        }
+    )
+}
+})
+
+export {homePageProducts, categories, productPageProducts};

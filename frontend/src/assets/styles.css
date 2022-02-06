@@ -528,10 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 40px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -590,10 +586,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.overflow-scroll {
-  overflow: scroll;
 }
 
 .overflow-x-hidden {
@@ -681,11 +673,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 94 117 / var(--tw-bg-opacity));
 }
 
 .object-cover {
