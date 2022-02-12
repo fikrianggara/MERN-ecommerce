@@ -17,4 +17,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MERN_ECOMMERCE_D827E }}'
           channelId: live
           projectId: mern-ecommerce-d827e,
-          path: "./frontend"
+          entryPoint: "./frontend"
