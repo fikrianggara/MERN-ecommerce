@@ -42,7 +42,7 @@ const Product = (props) => {
             <ProductItem product={props.item}>
             </ProductItem>
             <Action>
-                <Icon>
+                <Icon onClick={()=>routeToDetail(props.item)}>
                     <SearchOutlined></SearchOutlined>
                 </Icon>
                 <Icon>
