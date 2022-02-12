@@ -13,5 +13,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MERN_ECOMMERCE_D827E }}'
-          projectId: mern-ecommerce-d827e,
+          projectId: mern-ecommerce-d827e
           entryPoint: "./frontend"
