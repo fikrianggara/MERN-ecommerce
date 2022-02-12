@@ -28,7 +28,7 @@ const CategoryTitle = styled.h1.attrs({
   className:'flex-1 font-medium tracking-widest text-4xl my-5 lg:text-5xl text-gray-100'
 })``;
 const CategoryButton =styled.button.attrs({
-  className:'flex-1 mt-0 mt-5 text-xl lg:text-3xl md:mb-8 text-green-600 opacity-80 bg-white md:hover:outline backdrop-blur-sm md:hover:outline-2 duration-300 ease-in p-2 lg:p-4 rounded-t-lg md:rounded-lg'
+  className:'flex-1 mt-0 mt-5 text-xl lg:text-3xl md:mb-8 text-teal-600 opacity-80 bg-white md:hover:outline backdrop-blur-sm md:hover:outline-2 duration-300 ease-in p-2 lg:p-4 rounded-t-lg md:rounded-lg'
 })``;
 const CategoryImg = styled.img.attrs({
   className:'w-full h-full rounded-lg object-cover duration-300 ease-in-out opacity-80'

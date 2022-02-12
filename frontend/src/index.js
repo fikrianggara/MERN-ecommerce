@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/styles.css';
+import './assets/tailwind.css';
 // import './assets/index.css'; uncomment ini kalo untuk produksi
 import './index.css'
 import App from './App';

@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Bigilla";
+  src: url("../public/assets/fonts/BigillaRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Italiana";
+  src: url("../public/assets/fonts/Italiana-Regular.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Viola";
+  src: url("../public/assets/fonts/FontsFree-Net-VIOLA.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +28,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   background-color: #f9fafb;
+  text-transform: uppercase;
+}
+
+pre {
+  font-family: "Roboto" sans-serif;
+}
+
+.logo {
+  font-family: "Bigilla";
 }

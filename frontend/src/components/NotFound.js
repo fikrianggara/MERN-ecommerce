@@ -5,7 +5,7 @@ const Container = styled.div.attrs({
     className:'text-5xl flex items-center justify-center h-screen'
 })``;
 const Message = styled.div.attrs({
-    className:'text-green-700 m-auto font-bold'
+    className:'text-teal-700 m-auto font-bold'
 })``;
 const NotFound = () => {
   return (

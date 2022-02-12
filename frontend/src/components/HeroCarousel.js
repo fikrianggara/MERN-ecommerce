@@ -30,7 +30,7 @@ const ImgContainer = styled.div.attrs({
     className:'w-full h-full',
 })``;
 const ShopButton = styled.button.attrs({
-  className:'absolute bottom-5 right-10 md:right-24 md:bottom-10 md:text-xl text-sm font-medium md:opacity-60 md:hover:opacity-100 opacity-100 hover:cursor-pointer duration-150 ease-in text-green-800 bg-slate-200 p-4 rounded-lg'
+  className:'absolute bottom-5 right-10 md:right-24 md:bottom-10 md:text-xl text-sm font-medium md:opacity-60 md:hover:opacity-100 opacity-100 hover:cursor-pointer duration-150 ease-in text-teal-800 bg-slate-200 p-4 rounded-lg'
 })``;
 
 

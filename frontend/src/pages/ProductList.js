@@ -4,9 +4,10 @@ import Products from "../components/Products";
 import Footer from "../components/Footer";
 
 const ProductList = () => {
+
   return (
   <div>
-      <Announcements></Announcements>
+    <Announcements></Announcements>
     <Navbar></Navbar>
     <Products Page={'ProductList'}></Products>
     <Footer></Footer>

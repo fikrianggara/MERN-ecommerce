@@ -20,13 +20,13 @@ const Right = styled.div.attrs({
   className: 'p-2 flex-1 flex justify-evenly'
 })``;
 const Logo = styled.h1.attrs({
-  className:'text-center font-bold text-green-800 text-xl'
+  className:'logo text-center font-bold text-teal-800 text-4xl'
 })``;
 const Language = styled.div.attrs({
   className: 'md:text-right hover:cursor-pointer flex-1/3 ml-6 mr-8'
 })``;
 const SearchContainer = styled.div.attrs({
-  className: 'bg-gray-200 flex rounded justify-evenly flex-2/3 border border-gray-500 focus:border-green-200'
+  className: 'bg-gray-200 flex rounded justify-evenly flex-2/3 border border-gray-500 focus:border-teal-200'
 })``;
 const Input = styled.input.attrs({
   className:'focus:outline-none bg-gray-200 mx-2 font-medium',
@@ -42,7 +42,7 @@ const Navbar = () => {
       <Left>
         <a href="/">
         <Logo>
-        CLOTHES-COMMERCE</Logo></a></Left>
+        ZORO</Logo></a></Left>
       <Center>
         <Language>
           IND

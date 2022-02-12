@@ -8,7 +8,7 @@ const Left = styled.div.attrs({
   className:'flex-1 text-start md:text-center'
 })``;
 const Logo = styled.h1.attrs({
-  className:'font-bold text-green-800 text-xl'
+  className:'font-bold text-teal-800 text-xl'
 })``;
 const Description = styled.div.attrs({
   className:'py-2 font-medium mt-3'
@@ -32,7 +32,7 @@ const Item = styled.li.attrs({
   className:''
 })``;
 const ItemLink = styled.a.attrs({
-    className:'hover:text-green-500 hover:cursor-pointer'
+    className:'hover:text-teal-500 hover:cursor-pointer'
 })``;
 const Template = styled.div.attrs({
   className:''

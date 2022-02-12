@@ -68,7 +68,7 @@ categories.forEach(category=>{
     for(let i = 1; i<=5; i++){
     homePageProducts.push(
         {
-            id:i,
+            id:`${category}-${i}`,
             category,
             src:`assets/products/${category}/${i}.jpg`
         }
@@ -79,7 +79,7 @@ categories.forEach(category=>{
     for(let i = 1; i<=20; i++){
     productPageProducts.push(
         {
-            id:i,
+            id:`${category}-${i}`,
             category,
             src:`assets/products/${category}/${i}.jpg`
         }

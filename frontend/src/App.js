@@ -1,6 +1,7 @@
 import Home from './pages/Home';
 import ProductList from './pages/ProductList';
 import NoPage from './pages/NoPage';
+import Product from './pages/DetailProduct';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="product-list" element={<ProductList />} />
+          <Route path='product/:category/:id' element={<Product/>}></Route>
           <Route path="*" element={<NoPage />} />
-          <Route path="uwu" element={<NoPage/>}></Route>
       </Routes>
     </BrowserRouter>
   );

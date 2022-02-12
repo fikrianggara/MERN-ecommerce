@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {FavoriteBorderOutlined, ShoppingCartOutlined, SearchOutlined} from '@mui/icons-material';
 
 const ProductItem = styled.div.attrs({
-  className:' w-full h-full bg-cover flex rounded-lg transition'
+  className:' w-full h-full bg-cover flex rounded-lg transition hover:cursor-pointer'
 })`background-image:url('${props=>props.product.src}')`;
 const Action = styled.div.attrs({
   className:'z-10 absolute flex flex-col p-2 md:p-4 h-1/2 bottom-0 transition right-0 md:p-4 text-gray-600 bg-white opacity-50 justify-between lg:justify-evenly rounded-lg rounded-tr-none md:rounded-bl-none'
@@ -29,14 +29,16 @@ const Container = styled.div.attrs({
 // 
 
 const Icon = styled.div.attrs({
-    className:'hover:cursor-pointer hover:text-green-600 md:m-2 duration-300 ease-in-out'
+    className:'hover:cursor-pointer hover:text-teal-600 md:m-2 duration-300 ease-in-out'
 })``;
-const Template = styled.div.attrs({
-  className:''
-})``;
+
 const Product = (props) => {
+  const routeToDetail = (product)=>{
+    console.log(product)
+    window.location=`/product/${product.category}/${product.id}`;
+  } 
   return (
-        <Container>
+        <Container onClick={()=>routeToDetail(props.item)}>
             <ProductItem product={props.item}>
             </ProductItem>
             <Action>
