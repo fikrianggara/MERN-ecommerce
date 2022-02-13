@@ -37,8 +37,8 @@ const Product = (props) => {
     window.location=`/product/${product.category}/${product.id}`;
   } 
   return (
-        <Container onClick={()=>routeToDetail(props.item)}>
-            <ProductItem product={props.item}>
+        <Container>
+            <ProductItem product={props.item} onClick={()=>routeToDetail(props.item)}>
             </ProductItem>
             <Action>
                 <Icon onClick={()=>routeToDetail(props.item)}>
