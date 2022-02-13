@@ -34,7 +34,6 @@ const Icon = styled.div.attrs({
 
 const Product = (props) => {
   const routeToDetail = (product)=>{
-    console.log(product)
     window.location=`/product/${product.category}/${product.id}`;
   } 
   return (

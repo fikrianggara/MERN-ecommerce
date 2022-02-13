@@ -1,7 +1,7 @@
 import Home from './pages/Home';
 import ProductList from './pages/ProductList';
 import NoPage from './pages/NoPage';
-import Product from './pages/DetailProduct';
+import Product from './pages/ProductDetails';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Instagram, Facebook, Twitter, Email} from '@mui/icons-material';
+import { categories } from '../data';
+
 const Container = styled.div.attrs({
   className:'bg-white p-8 md:p-4 flex flex-col mt-8 md:flex-row shadow-y-lg'
 })``;
@@ -69,14 +71,7 @@ const Footer = () => {
           <Center>
               <Description>Product</Description>
               <List>
-                    <Item><ItemLink>Kaos</ItemLink></Item>
-                    <Item><ItemLink>Kemeja</ItemLink></Item>
-                    <Item><ItemLink>Sepatu</ItemLink></Item>
-                    <Item><ItemLink>Sendal</ItemLink></Item>
-                    <Item><ItemLink>Setelan</ItemLink></Item>
-                    <Item><ItemLink>Sweater</ItemLink></Item>
-                    <Item><ItemLink>Piyama</ItemLink></Item>
-                    <Item><ItemLink>Aksesoris</ItemLink></Item>
+                {categories.map(category=><Item key={category}><ItemLink>{category}</ItemLink></Item>)}
               </List>
           </Center>
           <Right>

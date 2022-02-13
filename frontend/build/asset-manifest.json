@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a1d2951.css",
-    "main.js": "/static/js/main.0eabf2a0.js",
+    "main.css": "/static/css/main.1263a0e6.css",
+    "main.js": "/static/js/main.a84a931b.js",
     "static/media/BigillaRegular.ttf": "/static/media/BigillaRegular.4e483a2405042590f645.ttf",
     "static/media/Italiana-Regular.ttf": "/static/media/Italiana-Regular.9c344a849104259424bc.ttf",
     "static/media/FontsFree-Net-VIOLA.ttf": "/static/media/FontsFree-Net-VIOLA.6716ae29a85d403c7c57.ttf",
     "index.html": "/index.html",
-    "main.9a1d2951.css.map": "/static/css/main.9a1d2951.css.map",
-    "main.0eabf2a0.js.map": "/static/js/main.0eabf2a0.js.map"
+    "main.1263a0e6.css.map": "/static/css/main.1263a0e6.css.map",
+    "main.a84a931b.js.map": "/static/js/main.a84a931b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1d2951.css",
-    "static/js/main.0eabf2a0.js"
+    "static/css/main.1263a0e6.css",
+    "static/js/main.a84a931b.js"
   ]
 }

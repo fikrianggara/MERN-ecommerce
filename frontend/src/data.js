@@ -68,7 +68,7 @@ categories.forEach(category=>{
     for(let i = 1; i<=5; i++){
     homePageProducts.push(
         {
-            id:`${category}-${i}`,
+            id:`${category}${i}`,
             category,
             src:`assets/products/${category}/${i}.jpg`
         }
@@ -79,8 +79,13 @@ categories.forEach(category=>{
     for(let i = 1; i<=20; i++){
     productPageProducts.push(
         {
-            id:`${category}-${i}`,
+            id:`${category}${i}`,
+            name:`${category}${i}`,
+            size:['XS', 'S', 'M', 'L', 'XL'],
+            description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam perspiciatis fuga repellat iure? Vitae, dolores? Ipsa dolore similique, blanditiis iusto dolor aliquam fugit sunt?',
             category,
+            alt:`${category}${i} photos`,
+            price:`$125.00`,
             src:`assets/products/${category}/${i}.jpg`
         }
     )

@@ -8,9 +8,7 @@ const Container = styled.div.attrs({
   className:'md:w-4/5 m-auto px-3 mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'
 })``;
 
-const Template = styled.div.attrs({
-  className:''
-})``;
+
 const Products = ({Page}) => {
     const [data, setData] = useState([]);
     useEffect(() => {
