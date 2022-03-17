@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 // import tw from "twin.macro";
-import {Search, ShoppingCartOutlined} from '@mui/icons-material';
+import {Search, Menu, ShoppingCartOutlined} from '@mui/icons-material';
 import Badge from '@mui/material/Badge';
 
 const Container = styled.div.attrs({
